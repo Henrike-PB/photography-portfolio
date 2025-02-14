@@ -110,37 +110,38 @@
 .drive-link {
     text-align: center;
     margin: 2rem 0;
-  }
-  
-  .drive-button {
+}
+
+.drive-button {
     display: inline-flex;
     align-items: center;
     padding: 1rem 2rem;
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    background-color: #0077b5; /* Cor principal (pode mudar) */
+    background-color: #6A0DAD; /* Cor principal roxa */
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .drive-button i {
+}
+
+.drive-button i {
     margin-right: 0.5rem;
     font-size: 1.2rem;
-  }
-  
-  .drive-button:hover {
-    background-color: #005f8b; /* Cor mais escura no hover */
+}
+
+.drive-button:hover {
+    background-color: #5A0A96; /* Cor mais escura no hover */
     transform: translateY(-2px); /* Efeito de levantar */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  }
-  
-  .drive-button:active {
+}
+
+.drive-button:active {
     transform: translateY(0); /* Efeito de pressionar */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+}
+
 
   /* Responsividade */
   @media (max-width: 768px) {
